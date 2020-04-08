@@ -49,7 +49,7 @@ by the more user friendly one (allowing UI interaction) :
 ```
 cmake-gui ..
 ```
-
+-
  - click on **Configure**, the configuration changes and/or error are shown as RED lines.
 	Typically here you should adjust/assign the path to find a valid OpenCV Install folder
 	(the one containing *OpenCVConfig.cmake* file)
