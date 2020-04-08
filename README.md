@@ -43,17 +43,17 @@ OpenCV installation directory on your machine using a command similar to this on
 cmake .. -DOpenCV_DIR=<PATH_TO_OPENCV_INSTALL_DIR>
 ```
 
-* ALTERNATIVE TO ABOVE STEP : you could adjust the settings or default values presented by CMakeLists.txt,
+* *ALTERNATIVE TO ABOVE STEP* : you could adjust the settings or default values presented by CMakeLists.txt,
 you may replace the command from previous step by the more user friendly one (allowing UI interaction) :
 ```
 cmake-gui ..
 ``` 
-	- click on _Configure_, the configuration changes and/or error are shown as RED lines.
+	- click on *Configure*, the configuration changes and/or error are shown as RED lines.
 		Typically n here you should adjust/assign the path to find a valid OpenCV Install folder
 		(the one containing _OpenCVConfig.cmake_ file)
-		-Click again on _Configure_, this time no more red lines should remain, 
+	- Click again on *Configure*, this time no more red lines should remain, 
 		and the message "Configuring done" should be displayed. 
-	- Click on _Generate_ to generate the project files with defined settings. 
+	- Click on *Generate* to generate the project files with defined settings. 
 		The message "Configuring done" should be displayed.
 		-You may quit the cmake-gui interface.
 
