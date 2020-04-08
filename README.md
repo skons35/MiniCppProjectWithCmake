@@ -50,14 +50,14 @@ by the more user friendly one (allowing UI interaction) :
 cmake-gui ..
 ```
 -
- - click on **Configure**, the configuration changes and/or error are shown as RED lines.
-	Typically here you should adjust/assign the path to find a valid OpenCV Install folder
-	(the one containing *OpenCVConfig.cmake* file)
- - Click again on **Configure**, this time no more red lines should remain, 
-	and the message *Configuring done* should be displayed. 
- - Click on **Generate** to generate the project files with defined settings. 
-	The message *Generating done* should be displayed.
- - You may quit the cmake-gui interface.
+	 - click on **Configure**, the configuration changes and/or error are shown as RED lines.
+		Typically here you should adjust/assign the path to find a valid OpenCV Install folder
+		(the one containing *OpenCVConfig.cmake* file)
+	 - Click again on **Configure**, this time no more red lines should remain, 
+		and the message *Configuring done* should be displayed. 
+	 - Click on **Generate** to generate the project files with defined settings. 
+		The message *Generating done* should be displayed.
+	 - You may quit the cmake-gui interface.
 
 * Compile the generated project (for instance, if Visual Studio was the compiling IDE defined,
  you should find a _MiniProj1.sln_ file, that you can open with that IDE, and then compile the project.
